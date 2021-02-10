@@ -1,0 +1,614 @@
+Script started on 2021-02-09 22:45:39+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ pwd
+/home/schayden
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git init
+Reinitialized existing Git repository in /home/schayden/.git/
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ pwd
+/home/schayden
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt   git_and_gitlab.txt        [0m[01;31msi676-practice-directory.tar[0m
+desktop.ini     [01;34mlabs[0m                      welcome.txt
+[01;32mecho-server.py[0m  [01;34msi676-practice-directory[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ cd .git
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ ls
+HEAD  [0m[01;34mbranches[0m  config  description  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ STEP 2
+STEP: command not found
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ touch hello-world.js
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ git add hello-world.js 
+fatal: this operation must be run in a work tree
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ pwd
+/home/schayden/.git
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ ls
+HEAD  [0m[01;34mbranches[0m  config  description  hello-world.js  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ rm hello-world.js 
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ cd[K[Kcd ..
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt   git_and_gitlab.txt        [0m[01;31msi676-practice-directory.tar[0m
+desktop.ini     [01;34mlabs[0m                      welcome.txt
+[01;32mecho-server.py[0m  [01;34msi676-practice-directory[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ pwd
+/home/schayden
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ touch hello-world.js
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git add hello-world.js 
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m adding hello-world to git repo
+error: pathspec 'hello-world' did not match any file(s) known to git
+error: pathspec 'to' did not match any file(s) known to git
+error: pathspec 'git' did not match any file(s) known to git
+error: pathspec 'repo' did not match any file(s) known to git
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   hello-world.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m adding file
+error: pathspec 'file' did not match any file(s) known to git
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commt[Kit 0m[K[K-=[Km
+error: switch `m' requires a value
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ c[Kgit commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <schayden@ip-172-31-75-16.ec2.internal>) not allowed
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m "Adding files for step 2"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <schayden@ip-172-31-75-16.ec2.internal>) not allowed
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git configg =[K--"schayden"[C[1P --"schayden"[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg[K\[Kig --global "schayden@umich.edu"
+error: invalid key: schayden@umich.edu
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git confid --global "schayden"
+git: 'confid' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git config --global "schayden"
+error: key does not contain a section: schayden
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git config --u[Kglobal user.email "schyaden@umich.edu"
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git config --global user.name "schayden"
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git config --global user.name "schayden"email "schyaden@umich.edu""schayden"[Kd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg --global "schayden@umich.edu"[1Pmmit -m "Adding files for step 2"
+[master (root-commit) 3158f0f] Adding files for step 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello-world.js
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ cd .git
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ ls
+COMMIT_EDITMSG  [0m[01;34mbranches[0m  description  index  [01;34mlogs[0m     [01;34mrefs[0m
+HEAD            config    [01;34mhooks[0m        [01;34minfo[0m   [01;34mobjects[0m
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ cd ..
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ pwd
+/home/schayden
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt   git_and_gitlab.txt  [0m[01;34msi676-practice-directory[0m
+desktop.ini     hello-world.js      [01;31msi676-practice-directory.tar[0m
+[01;32mecho-server.py[0m  [01;34mlabs[0m                welcome.txt
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ touch committed.js
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git add committed.js 
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m "ad[K[KAdding file for step 3"
+[master 5661f00] Adding file for step 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 committed.js
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ touch committed.js 
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ vm[K[Kvm committed.js 
+
+Command 'vm' not found, but can be installed with:
+
+sudo apt install mgetty-voice
+
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ vi committed.js 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"committed.js" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"committed.js" 0L, 0C[1;1H[?25h[?25l[24;53Ht[1;1H[?25h[?25l[24;54Hh[1;1H[24;53H  [1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25ls[24;63H1,2[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25l[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lt[24;65H2[1;2H[?25h[?25lh[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25l[1m[36mthis[m[24;65H5[1;5H[?25h[?25l[24;65H6[1;6H[?25h[?25li[24;65H7[1;7H[?25h[?25ls[24;65H8[1;8H[?25h[?25l[24;65H9[1;9H[?25h[?25lt[24;65H10[1;10H[?25h[?25lh[24;66H1[1;11H[?25h[?25le[24;66H2[1;12H[?25h[?25l[24;66H3[1;13H[?25h[?25lf[24;66H4[1;14H[?25h[?25li[24;66H5[1;15H[?25h[?25lr[24;66H6[1;16H[?25h[?25ls[24;66H7[1;17H[?25h[?25lt[24;66H8[1;18H[?25h[?25l[24;66H9[1;19H[?25h[?25ll[24;65H20[1;20H[?25h[?25li[24;66H1[1;21H[?25h[?25ln[24;66H2[1;22H[?25h[?25le[24;66H3[1;23H[?25h[24;1H[K[1;22H[?25l[24;53H^[[1;22H[24;53H  [1;23H[24;63H1,22[10CAll[1;22H[?25h[?25l[24;53H:[1;22H[24;53H[K[24;1H:[?2004h[?25hqw[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25hwq![?25l[?2004l"committed.js" 1L, 23C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ less committed.js 
+[?1049h[22;0;0t[?1h=this is the first line
+[7mcommitted.js (END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+this is the first line
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [K::[Kww[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ cd .git
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ ls
+COMMIT_EDITMSG  [0m[01;34mbranches[0m  description  index  [01;34mlogs[0m     [01;34mrefs[0m
+HEAD            config    [01;34mhooks[0m        [01;34minfo[0m   [01;34mobjects[0m
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ cd branches/
+]0;schayden@ip-172-31-75-16: ~/.git/branchesschayden@ip-172-31-75-16:~/.git/branches$ ls
+]0;schayden@ip-172-31-75-16: ~/.git/branchesschayden@ip-172-31-75-16:~/.git/branches$ cd ..
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ cd info[K[K[K[Kobjects/
+]0;schayden@ip-172-31-75-16: ~/.git/objectsschayden@ip-172-31-75-16:~/.git/objects$ ls
+[0m[01;34m31[0m  [01;34m47[0m  [01;34m56[0m  [01;34md2[0m  [01;34me6[0m  [01;34minfo[0m  [01;34mpack[0m
+]0;schayden@ip-172-31-75-16: ~/.git/objectsschayden@ip-172-31-75-16:~/.git/objects$ cd ..
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ less description 
+[?1049h[22;0;0t[?1h=Unnamed repository; edit this file 'description' to name the repository.
+[7mdescription (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ less index [K
+"index" may be a binary file.  See it anyway? 
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ 
+]0;schayden@ip-172-31-75-16: ~/.gitschayden@ip-172-31-75-16:~/.git$ cd ..
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   committed.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m[K[K[K committed.js "added line"[C[1@ [1@-[1@m
+[master 07e95fb] added line
+ 1 file changed, 1 insertion(+)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git remote add origin https://github.com/schayden/676Homework3
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push -u r[Korigin master
+Username for 'https://github.com': Hovin4baz         schayden
+Password for 'https://schayden@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/schayden/676Homework3/'
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push -u origin master
+Username for 'https://github.com': schayden
+Password for 'https://schayden@github.com': 
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 711 bytes | 711.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/schayden/676Homework3/pull/new/master[K
+remote: 
+To https://github.com/schayden/676Homework3
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ lsgit statuspush -u origin master[K[K[K[K[K[Kmain
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/schayden/676Homework3'
+[m]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push -u origin mainls[Kgit statuspush -u origin masterremote add origin https://github.com/schayden/676Homework3.git
+fatal: remote origin already exists.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git add origin https://github.com/schayden/676Homework3.git
+fatal: pathspec 'origin' did not match any files
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git pull
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 1.25 KiB | 1.25 MiB/s, done.
+From https://github.com/schayden/676Homework3
+ * [new branch]      main       -> origin/main
+Already up to date.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git c[Krevert committed.js
+fatal: bad revision 'committed.js'
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls[K[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git branch newbranch
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ vi[K[Knano[K[K[K[Kvim[Km hello-world.js 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello-world.js" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"hello-world.js" 0L, 0C[1;1H[?25h[?25l[24;53HH[1;1H[24;53H [1;1H[?25h[?25l[24;53He[1;1H[24;53H [1;1H[?25h[?25l[24;53Hl[1;1H[24;53H [1;1H[?25h[?25l[24;53Hl[1;1H[24;53H [1;1H[?25h[?25l[24;53Ho[1;1H[24;53H [2;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H2,1[11CAll[2;1H[K[2;1H[?25h[?25l[24;65H2[2;2H[?25h[?25lW[24;65H3[2;3H[?25h[?25l[2;2H[K[24;65H2[2;2H[?25h[?25l[24;65H1[2;1H[?25h[?25l[1m[34m~                                                                               [m[24;63H1[1;1H[?25h[?25lH[24;65H2[1;2H[?25h[?25le[24;65H3[1;3H[?25h[?25ll[24;65H4[1;4H[?25h[?25ll[24;65H5[1;5H[?25h[?25lo[24;65H6[1;6H[?25h[?25l[24;65H7[1;7H[?25h[?25lW[24;65H8[1;8H[?25h[?25lo[24;65H9[1;9H[?25h[?25lr[24;65H10[1;10H[?25h[?25ll[24;66H1[1;11H[?25h[?25ld[24;66H2[1;12H[?25h[24;1H[K[1;11H[?25l[24;53H^[[1;11H[24;53H  [1;12H[24;63H1,11[10CAll[1;11H[?25h[?25l[24;53H:[1;11H[24;53H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"hello-world.js" 1L, 12C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   hello-world.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit hello-world.js -m "Step 9"
+[master aa8c6d4] Step 9
+ 1 file changed, 1 insertion(+)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push
+Username for 'https://github.com': schayden
+Password for 'https://schayden@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 286 bytes | 286.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/schayden/676Homework3
+   07e95fb..aa8c6d4  master -> master
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ vim hello-world.js 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello-world.js" 1L, 12C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HHello World
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,11[10CAll[1;11H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HHello World
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,11[10CAll"hello-world.js" 1L, 12C[1;11H[?25h[?25l[24;53H~@k[1;11H[24;53H   [1;11H[?25h[?25l[24;53H~@k[1;11H[24;53H   [1;11H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,11[10CAll[1;11H[?25h[?25l[24;66H2[1;12H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[?25lT[24;65H2[2;2H[?25h[?25la[24;65H3[2;3H[?25h[?25lk[24;65H4[2;4H[?25h[?25le[24;65H5[2;5H[?25h[?25l[24;65H6[2;6H[?25h[?25l2[24;65H7[2;7H[?25h[?25l[24;65H8[2;8H[?25h[?25lf[24;65H9[2;9H[?25h[?25lo[24;65H10[2;10H[?25h[?25l[1m[33mfor[m[24;66H1[2;11H[?25h[?25l[24;66H2[2;12H[?25h[?25lm[24;66H3[2;13H[?25h[?25li[24;66H4[2;14H[?25h[?25ls[24;66H5[2;15H[?25h[?25lt[24;66H6[2;16H[?25h[?25la[24;66H7[2;17H[?25h[?25lk[24;66H8[2;18H[?25h[?25le[24;66H9[2;19H[?25h[?25l[2;18H[K[24;66H8[2;18H[?25h[?25l[2;17H[K[24;66H7[2;17H[?25h[?25l[2;16H[K[24;66H6[2;16H[?25h[?25l[2;15H[K[24;66H5[2;15H[?25h[?25l[2;14H[K[24;66H4[2;14H[?25h[?25l[2;13H[K[24;66H3[2;13H[?25h[?25l[2;12H[K[24;66H2[2;12H[?25h[?25l[24;66H1[2;11H[?25h[?25lfo[2;10H[K[24;66H0[2;10H[?25h[?25l[2;9H[K[24;65H9 [2;9H[?25h[?25l[2;8H[K[24;65H8[2;8H[?25h[?25l[24;65H7[2;7H[?25h[24;1H[K[2;6H[?25l[24;53H^[[2;6H[24;53H  [2;7H[24;63H2,6[11CAll[2;6H[?25h[?25l[24;53H"[2;6H[?25h[?25l[24;54H:[2;6H[?25h[?25l[24;55H;[2;6H[24;53H   [2;6H[?25h[?25l[24;53H:[2;6H[24;53H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"hello-world.js" 2L, 19C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   hello-world.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit -m "[K[K[K[Khello-world.js =m[K-[K[K-m "Hello[K[K[K[K[KStep 9 part 2"
+[master 2e646df] Step 9 part 2
+ 1 file changed, 1 insertion(+)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git branch
+[?1h=* [32mmaster[m[m
+  newbranch[m[m
+[K[?1l>]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ g[Kgit checkout newbranch 
+Switched to branch 'newbranch'
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ #switched branch to "newbranch"
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ ls
+assment_1.txt  [0m[01;32mecho-server.py[0m      [01;34mlabs[0m                          welcome.txt
+committed.js   git_and_gitlab.txt  [01;34msi676-practice-directory[0m
+desktop.ini    hello-world.js      [01;31msi676-practice-directory.tar[0m
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git branch
+[?1h=  master[m[m
+* [32mnewbranch[m[m
+[K[?1l>]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git add hello-world.js 
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit  -[K[K-m [K "branch ca[Khange"
+On branch newbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git status
+On branch newbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git add hello-world.js 
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit[K[K[K[K[K[Kstatus
+On branch newbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.gitconfig[m
+	[31m.profile[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.viminfo[m
+	[31massment_1.txt[m
+	[31mdesktop.ini[m
+	[31mecho-server.py[m
+	[31mgit_and_gitlab.txt[m
+	[31mlabs/[m
+	[31msi676-practice-directory.tar[m
+	[31msi676-practice-directory/[m
+	[31mwelcome.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git commit[K[K[K[K[K[K[K[K[K[K[K]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ [K]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push -u origin newbranch [K
+Username for 'https://github.com': schayden
+Password for 'https://schayden@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'newbranch' on GitHub by visiting:[K
+remote:      https://github.com/schayden/676Homework3/pull/new/newbranch[K
+remote: 
+To https://github.com/schayden/676Homework3
+ * [new branch]      newbranch -> newbranch
+Branch 'newbranch' set up to track remote branch 'newbranch' from 'origin'.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git checkout master 
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git push
+Username for 'https://github.com': schyad   ayden
+Password for 'https://schayden@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/schayden/676Homework3
+   aa8c6d4..2e646df  master -> master
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git checkout master 
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git merge newbranch 
+Already up to date.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git branch
+[?1h=* [32mmaster[m[m
+  newbranch[m[m
+[K[?1l>]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git merge newbranch 
+Already up to date.
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ git k[K[Kk
+
+Command 'gitk' not found, but can be installed with:
+
+sudo apt install gitk
+
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ script close
+Script started, file is close
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ script close[K[K[K[K[K[K[K[K[K[K[K[Kscript exit
+Script started, file is exit
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ exit
+exit
+Script done, file is exit
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ exit
+exit
+Script done, file is close
+]0;schayden@ip-172-31-75-16: ~schayden@ip-172-31-75-16:~$ exit
+exit
+
+Script done on 2021-02-09 23:56:52+00:00 [COMMAND_EXIT_CODE="0"]
